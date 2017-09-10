@@ -16,7 +16,7 @@ class ProgressView:UIView {
 	private(set) var isAnimating:Bool = false
 	private var internalView:UIView = UIView();
 	private var internalViewWidth:CGFloat = 30
-	
+	 
 	override func layoutSubviews() {
 		super.layoutSubviews()
 		self.internalView.frame.size.height = bounds.height
